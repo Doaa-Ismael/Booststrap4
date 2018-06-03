@@ -1,0 +1,64 @@
+
+
+html,body {
+    height: 100%;
+}
+
+
+img {
+    max-width: 100%;
+}
+#cover {
+    background: #222 url("../img/stars.jpg") center center no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cover form {
+    display: flex;
+    justify-content: center;
+}
+#cover-caption {
+    width: 100%;
+}
+.section-content {
+    padding: 5rem 0;
+}
+.card-header {
+    background: white;
+}
+
+#about {
+    background: #FFF url("../img/girlincar.jpg")  no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+.about-text {
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 1.85rem;
+}
+
+.card-warning {
+    background: #ffb861;
+}
+
+#new nav ul {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#main-footer{
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}
